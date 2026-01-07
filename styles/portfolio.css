@@ -26,6 +26,7 @@
     color: white;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -34,6 +35,9 @@
 /*Main Style*/
 header {
     background-color: #FFF8F3;
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
     padding-top: 51px;
 }
 
@@ -57,4 +61,45 @@ nav .menu {
     color: #474747;
     font-size: 20px;
     text-decoration: none;
+}
+
+#banner {
+    margin: 46px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner .banner-content {
+    max-width: 585px;
+}
+
+#banner .banner-content h2 {
+    color: #474747;
+    font-weight: 600px;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+#banner .banner-content h1 {
+    color: #181818;
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#banner .banner-content p {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.btn1 {
+    margin-right: 30px;
+}
+
+#banner .banner-image {
+    max-width: 584px;
+    vertical-align: middle;
 }
